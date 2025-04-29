@@ -1,0 +1,432 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+
+}
+
+
+body {
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+::selection {
+    background: rgb(34, 197, 94);
+    /* background color for the selected text */
+    color: white;
+    /* text color for the selected text */
+}
+
+
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+    /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    /* background of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    /* color of the scrollbar thumb */
+    border-radius: 6px;
+    /* rounded edges for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(46, 46, 46);
+    cursor: pointer;
+    /* color when hovering over the thumb */
+}
+
+
+
+
+/* Whatsapp Logo */
+.Landing {
+
+    position: relative;
+
+}
+
+.Whats-app {
+
+    position: fixed;
+    bottom: 2.8rem;
+    right: 3rem;
+    z-index: 1000;
+
+}
+
+.btn-WP {
+
+    padding: 5px 18px !important;
+    background-color: #25D366 !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    text-align: center !important;
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .swiper {
+        height: 100vh;
+
+    }
+}
+
+
+/* Service overview */
+.service-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    min-height: 70vh;
+    background: url("https://img.freepik.com/premium-vector/circuit-technology-background-with-hi-tech-digital-data-connection-system-computer-electronic-desing_29971-656.jpg?ga=GA1.2.1208105082.1712396076&semt=ais_hybrid") no-repeat center center/cover;
+    position: relative;
+}
+
+
+
+.service-overview p {
+    max-width: 70%;
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.5;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.animated-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-heading span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: letter-appear 0.5s forwards;
+}
+
+@keyframes letter-appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .animated-heading {
+        font-size: 2rem;
+    }
+}
+
+
+/* Benfits */
+
+.benefits-section {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-text {
+    text-align: left;
+}
+
+@supports (background-clip: text) {
+    .benefits-title {
+        background: linear-gradient(45deg, #03bc03, #06a1cc);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.benefits-description {
+    font-size: 1.1rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+.benefits-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.deliverable-item {
+    position: relative;
+    margin: 15px 0;
+}
+
+.icon-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.icon-container:hover {
+    box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    transition: all .3s ease-out;
+}
+
+.deliverable-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.icon-container:hover .deliverable-icon {
+    transform: scale(1.1);
+}
+
+.benefit-img img {
+    height: 50px;
+    width: auto;
+}
+
+.overlay-texts p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .benefits-text {
+        text-align: center;
+    }
+
+    .deliverable-icon {
+        height: 150px;
+    }
+
+    .overlay-texts p {
+        text-align: center;
+    }
+
+    .benefits-title {
+        margin: auto;
+        padding-bottom: 30px;
+        color: black;
+    }
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Solar Energy */
+
+.solar-head img {
+    width: 100%;
+    height: 50vh;
+}
+
+.solar-enery {
+    height: 50vh;
+}
+
+.solar-body {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 8rem;
+}
+
+.solar-body p {
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .solar-body {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        top: 10rem;
+
+    }
+
+    .solar-head img {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+
+
+
+
+
+.preview-main-card {
+    margin-bottom: 20px;
+    /* background-image: url(https://img.freepik.com/free-photo/energy-power-plant-dusk-industrial-silhouette_91128-4532.jpg?t=st=1729759591~exp=1729763191~hmac=0fe16f24fdc3a290ab0666fa57ca836f6f0952aa33dec70ca72d3fd9ce85cd3f&w=1380); */
+    background-position: center;
+    background-image: linear-gradient(rgb(2, 82, 2), rgb(8, 134, 8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.view-all button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.preview-body {
+    padding: 20px;
+}
+
+.preview-body h4 {
+    font-size: 1.5rem;
+}
+
+
+.text-start {
+    margin-top: 20px;
+}
+
+.detail-sub-img img {
+    width: 90%;
+}
+
+
+.feature-box {
+    display: inline-block;
+    /* border: 1px solid #ddd; */
+    width: fit-content;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(rgb(5, 175, 5), rgb(16, 212, 16));
+}
+
+@supports (backdrop-filter: blur(10px)) {
+    .feature-box {
+        backdrop-filter: blur(10px);
+        /* background-color: rgba(0, 0, 0, 0.5); */
+    }
+}
+
+.feature-box {
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    opacity: .9;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .preview-body h2 {
+        font-size: 1.5rem;
+    }
+
+    .preview-body h4 {
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+
+    .feature-box {
+        width: auto;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 2000px) {
+
+    .header-xl {
+
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+
+    }
+}
+
+
+
+@media (max-width: 1350px) {
+
+    .header-xl {
+
+        padding-left: 2em !important;
+        padding-right: 2rem !important;
+
+    }
+}
