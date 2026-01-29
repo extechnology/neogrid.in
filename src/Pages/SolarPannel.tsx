@@ -15,7 +15,7 @@ export default function SolarPannel() {
             category: "solarpanel",
             tittle: "Mono Perc Half-cut Panel",
             description: "Enhanced performance even in low light",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/01.Mono Perc Half-cut Panel.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "Certified by IEC & Bis", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -33,7 +33,7 @@ export default function SolarPannel() {
             category: "solarpanel",
             tittle: "E LAN SHINE TOPCON SERIES",
             description: "N-type Dual Glass Modules ASB-M10-144-AAA (AAA=550-580) 144 Cells | 550-580 Wp | Gen-II",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/02.E LAN SHINE TOPCON SERIES.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "Up to 30% Additional Power Gain when compared with conventional P-type module", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -54,7 +54,7 @@ export default function SolarPannel() {
             category: "solarpanel",
             tittle: "E LAN SHINE TOPCON SERIES",
             description: "N-type Bifacial Transparent Backsheet Modules ASB-M10-144-AAA (AAA=550-580) 144 Cells | 550-580 Wp | Gen-II",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/03.E LAN SHINE TOPCON SERIES.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "Up to 30% Additional Power Gain when compared with conventional P-type module", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -70,14 +70,12 @@ export default function SolarPannel() {
             warranty: "25 Years",
 
         },
-
-
         {
 
             category: "solarpanel",
             tittle: "ELAN SHINE SERIES",
             description: "Bifacial PV Modules with Dual Glass, MBB P-Type PERC Half-cut ASB-M10-144-AAA (AAA=520-545) 144 Cells | 520-545 Wp",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/04.ELAN SHINE SERIES.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "MBB cell technology -excellent anti-microcracking performance with more balanced interior stress: grid pattern current path, lower cost", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -96,7 +94,7 @@ export default function SolarPannel() {
             category: "solarpanel",
             tittle: "ELAN SHINE SERIES",
             description: "Bifacial PV Modules with Transparent Backsheet, MBB P-Type PERC Half-cut ASB-M10-144-AAA (AAA=520-545) 144 Cells | 520-545 Wp",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/04.ELAN SHINE SERIES.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "MBB cell technology -excellent anti-microcracking performance with more balanced interior stress: grid pattern current path, lower cost", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -115,7 +113,7 @@ export default function SolarPannel() {
             category: "solarpanel",
             tittle: "TERNAL SHINE SERIES",
             description: "Monofacial PV Modules MBB P-Type PERC Half-cut ASM-M10-144-AAA (AAA=520-545) 144 Cells | 520-545 Wp",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/05.TERNAL SHINE SERIES.jpg.jpeg",
             pdf: "",
             features: [
                 { text: "MBB cell technology with 10BB, smart soldering", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -140,7 +138,7 @@ export default function SolarPannel() {
 
 
 
-            <section className="py-[5.4rem]">
+            <section className="py-[3rem]">
 
 
                 {

@@ -15,8 +15,8 @@ export default function Mppt() {
             category: "MPPT",
             tittle: "AUTO TRACING MPPT",
             description: "Maxumum Power Point tracking (MPPT) is a technique used in solar inverters to optimize power extraction from photovoltaic(PV) panels. By adjusting the electrical operating point, MPPT maximizes energy efficiency.",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
-            pdf: "",
+            image: "/14.AUTO TRACING MPPT.jpg.jpeg",
+            pdf: "",    
             features: [
 
                 { text: "DSP Baded Fullly digital Design", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -49,7 +49,7 @@ export default function Mppt() {
         <>
 
 
-            <section className="py-[5.4rem]">
+            <section className="py-[3rem]">
 
 
                 {

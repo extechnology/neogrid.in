@@ -15,7 +15,7 @@ export default function GridInterActive() {
             category: "grid_interactive_inverter",
             tittle: "GRID INTERACTIVE INVERTER (GI)",
             description: "Homes and establishments that need to reduce their electricity bills",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/01.GRID INTERACTIVE INVERTER (GI).png",
             pdf: "",
             features: [
                 { text: "Operating voltage range 180-276 VAC suitable for Indian grids", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -33,7 +33,7 @@ export default function GridInterActive() {
             category: "grid_interactive_inverter",
             tittle: "GRID INTERACTIVE HYBRID INVERTER (GIH)",
             description: "Homes and establishments need power backup for emergency loads apart from reduce electricity bills",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/07.GRID INTERACTIVE HYBRID INVERTER (GIH).jpg.jpeg",
             pdf: "",
             features: [
                 { text: "highest Efficiency 85% with a battery system, 95% with solar system", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -51,7 +51,7 @@ export default function GridInterActive() {
             category: "grid_interactive_inverter",
             tittle: "3 PHASE GRID INTERACTIVE INVERTER",
             description: "3 Phase Inverters is an advanced technology with all the prid interactive features, including the flexibility for different large-scale PV systems and applications",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/02.3 PHASE GRID INTERACTIVE INVERTER.png",
             pdf: "",
             features: [
                 { text: "I-V scanning functionality archive enhance safety,proactive maintenance Higher O&M efficiency and lower operation cost", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
@@ -79,7 +79,7 @@ export default function GridInterActive() {
 
 
 
-            <section className="py-[5.4rem]">
+            <section className="py-[3rem]">
 
 
                 {

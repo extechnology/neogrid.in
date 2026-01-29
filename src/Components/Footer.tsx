@@ -140,7 +140,7 @@ function Footer() {
               <div className="flex flex-col sm:flex-row justify-between items-center gap-y-4 sm:gap-y-0 text-center sm:text-left">
 
                 <div>
-                  <p className="text-sm">&copy; 2025 Neogrid. All rights reserved.</p>
+                  <p className="text-sm">&copy; {new Date().getFullYear()} Neogrid. All rights reserved.</p>
                   <p className="text-xs mt-1 sm:mt-2">
                     Our Parent Company's Legal Name is <span className="font-medium">VILAKKUMADATHIL YASAR ARAFATH</span>, our trade name is <span className="font-medium">Smart Enterprises</span>, and <span className="font-medium">Neogrid</span> is a subsidiary.
                   </p>

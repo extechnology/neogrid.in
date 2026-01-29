@@ -9,14 +9,14 @@ function OurDeliverables() {
         <>
 
 
-            <section className='pt-8'>
+            <section className='pt-0'>
 
                 <h3 className="text-[#6bac15] text-3xl font-bold sm:text-4xl text-center" data-aos="fade-up" data-aos-duration="600">
                     OUR DELIVERABLES
                 </h3>
 
                 {/* 1 */}
-                <section className="py-14">
+                <section className="py-10">
 
                     <div className="max-w-screen-xl mx-auto md:px-8">
 
@@ -52,7 +52,7 @@ function OurDeliverables() {
 
 
                 {/* 2 */}
-                <section className="py-14">
+                <section className="py-10">
 
                     <div className="max-w-screen-xl mx-auto md:px-8 border-t">
 
@@ -93,7 +93,7 @@ function OurDeliverables() {
 
 
                 {/* 3 */}
-                <section className="py-14">
+                <section className="py-10">
 
                     <div className="max-w-screen-xl mx-auto md:px-8  border-t">
 

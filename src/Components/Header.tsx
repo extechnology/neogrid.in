@@ -22,7 +22,7 @@ function Header() {
 
                 <header className="fixed inset-x-0 top-0 z-50 bg-neutral-50 shadow-md">
 
-                    <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-[9rem] header-xl">
+                    <nav aria-label="Global" className="flex items-center justify-between p-2 lg:px-[5rem] header-xl">
 
                         <div className="flex lg:flex-1">
                             <Link to="/" className="-m-1.5 p-1.5">
@@ -47,15 +47,13 @@ function Header() {
                         </div>
 
 
-                        <div className="hidden lg:flex lg:gap-x-12">
+                        <div className="hidden lg:flex lg:gap-x-10">
 
                             <div className="relative">
 
                                 <Link to='/' className="text-base font-medium leading-6 text-gray-900 hover:text-green-500">Home</Link>
 
                             </div>
-
-
 
 
                             <div className="relative group">
