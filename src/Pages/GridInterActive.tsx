@@ -33,7 +33,7 @@ export default function GridInterActive() {
             category: "grid_interactive_inverter",
             tittle: "GRID INTERACTIVE HYBRID INVERTER (GIH)",
             description: "Homes and establishments need power backup for emergency loads apart from reduce electricity bills",
-            image: "/07.GRID INTERACTIVE HYBRID INVERTER (GIH).jpg.jpeg",
+            image: "/01.GRID INTERACTIVE INVERTER (GI).png",
             pdf: "",
             features: [
                 { text: "highest Efficiency 85% with a battery system, 95% with solar system", icon: "https://cdn-icons-png.flaticon.com/128/11517/11517908.png" },
