@@ -16,7 +16,7 @@ export default function Installation() {
         <>
 
 
-            <section className="py-20 w-full">
+            <section className="py-14 w-full">
 
                 <div>
 

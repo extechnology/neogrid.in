@@ -15,7 +15,7 @@ export default function SolarPcu() {
             category: "grid_interactive_inverter",
             tittle: "INBUILT SOLAR PCU",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/09.INBUILT SOLAR PCU.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -39,7 +39,7 @@ export default function SolarPcu() {
             category: "solar_pcu",
             tittle: "HEAVY DUTY INVERTER",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/10.HEAVY DUTY INVERTER.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -61,7 +61,7 @@ export default function SolarPcu() {
             category: "solar_pcu",
             tittle: "LI-ON",
             description: "INBUILT LITHIUM BATTERY INVERTER & UPS ",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/11. LION.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -98,7 +98,7 @@ export default function SolarPcu() {
 
 
 
-            <section className="py-[5.4rem]">
+            <section className="py-[3rem]">
 
 
                 {

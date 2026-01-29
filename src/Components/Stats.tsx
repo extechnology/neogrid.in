@@ -37,7 +37,7 @@ function Stats() {
             <section className='border-t'>
 
 
-                <section className="py-14">
+                <section className="py-10">
 
                     <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                         <div className="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="600" >

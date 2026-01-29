@@ -334,7 +334,7 @@ export default function Filter() {
 
                                                                         </div>
 
-                                                                        <a href="https://wa.me/yourphonenumber?text=Hello%20there!" className='w-full'>
+                                                                        <a href="https://wa.me/+919846131500?text=I'm interested in your solar products" target='_blank' className='w-full'>
 
                                                                             <button className='bg-gray-900 hover:bg-white hover:text-black border-black border transition ease-in-out duration-400 text-white font-bold py-2 px-4 rounded w-full'>Enquiry Now</button>
 

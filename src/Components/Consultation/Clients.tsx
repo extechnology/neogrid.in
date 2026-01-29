@@ -6,24 +6,29 @@ export default function Clients() {
 
     const clients = [
         {
-            name: "MR. IVAN SAHA",
-            title: "Chief Executive Officer (KMP)",
-            img: "https://img.freepik.com/free-vector/betrayal-business-concept-illustration_114360-14885.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid",
+            name: "Mr.  KUNJIKOYA THANGAL",
+            title: "",
+            img: "/01.KUNJIKOYA THANGAL.png",
         },
         {
-            name: "MR. K.K. MASKARA",
-            title: "Whole-Time Director & President - Corporate (KMP)",
-            img: "https://img.freepik.com/free-vector/sponsor-concept-illustration_114360-6674.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid",
+            name: "Mr. SURESH KUMAR K",
+            title: "",
+            img: "/2.Suresh Kumar K.png",
         },
         {
-            name: "MS. NEHA AGRAWAL",
-            title: "Whole-Time Director and VP - Corporate Strategy (KMP)",
-            img: "https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid",
+            name: "Mr. BASHEER WANDOOR",
+            title: "",
+            img: "/03.Mr.Basheer Wandoor.png",
         },
         {
-            name: "MR. NARAYAN LODHA",
-            title: "Senior VP & Chief Finance Officer (KMP)",
-            img: "https://img.freepik.com/free-vector/business-deal-concept-illustration_114360-1535.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid",
+            name: "Mrs. FATHIMA ABOOBACKAR",
+            title: "",
+            img: "/04.FATHIMA ABOOBACKAR - Kasargod.png",
+        },
+        {
+            name: "Mrs. SABIRA PK",
+            title: "",
+            img: "/05.RIJITH KASARGOD.png",
         },
     ];
 

@@ -9,11 +9,11 @@ function About() {
 
 
 
-            <section className="py-20">
+            <section className="py-12">
                 
                 <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
                     <div className="sm:hidden lg:block lg:max-w-xl" data-aos="zoom-in" data-aos-duration="600">
-                        <img src="/freepik 2.jpg" className="rounded-lg" alt="" />
+                        <img src="/about-neogird.webp" loading="lazy" className="rounded-lg" alt="" />
                     </div>
 
                     <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block" data-aos="fade-up" data-aos-duration="600">

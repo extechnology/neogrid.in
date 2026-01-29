@@ -37,34 +37,34 @@ const ProductGrid = () => {
             title: 'N-Type Solar Panels',
             to:"/solarpannel",
             description: 'Brighten your home with the Sun',
-            imageSrc: 'https://www.nexussolarenergy.in/wp-content/uploads/2023/09/solar-panel.png',
+            imageSrc: '/solar-panel-home.png',
         },
         {
             bgColor: 'bg-yellow-500',
             title: 'Grid Interactive Inverter',
             to:"/gridinteractive",
             description: 'Maximize your savings with our efficient inverters',
-            imageSrc: 'https://www.nexussolarenergy.in/wp-content/uploads/2023/09/solar-pcu.png',
+            imageSrc: '/04.GRID INTERACTIVE INVERTER-home.png',
         },
         {
             bgColor: 'bg-pink-500',
             title: 'Solar Batteries',
             to:"/solarbatteries",
             description: 'High quality solar batteries for your solar PV systems',
-            imageSrc: 'https://www.nexussolarenergy.in/wp-content/uploads/2023/09/solar-battery.png',
+            imageSrc: '/02. SOLAR BATTRIES-home.png',
         },
         {
             bgColor: 'bg-green-500',
             title: 'Solar PCU',
             to:"/solarpcu",
             description: 'An advanced PCU solution for both on-grid and off-grid solar systems',
-            imageSrc: 'https://www.nexussolarenergy.in/wp-content/uploads/2023/09/ac.png',
+            imageSrc: '/03. SOLAR PCU-home.png',
         },
     ];
 
     return (
 
-        <section className="bg-white py-2  sm:py-20 border-t">
+        <section className="bg-white py-2  sm:py-10 border-t">
 
 
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">

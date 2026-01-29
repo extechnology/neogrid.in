@@ -28,24 +28,27 @@ function HomeSlider() {
                 >
                     <SwiperSlide>
                         <img
-                            src="https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg"
+                            src="/Home-slider-1.webp"
                             alt="Banner 1"
+                            loading='lazy'
                             className="w-full h-full object-cover"
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <img
-                            src="https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg"
+                            src="/Home-slider-2.webp"
                             alt="Banner 2"
+                            loading='lazy'
                             className="w-full h-full object-cover"
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <img
-                            src="https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg"
+                            src="/Home-slider-3.webp"
                             alt="Banner 3"
+                            loading='lazy'
                             className="w-full h-full object-cover"
                         />
                     </SwiperSlide>

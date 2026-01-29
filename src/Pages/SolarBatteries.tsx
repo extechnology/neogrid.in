@@ -14,7 +14,7 @@ export default function SolarBatteries() {
             category: "solar_batteries",
             tittle: "DAY STAR C20300AH",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/12.DAY STAR SERIES.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -37,7 +37,7 @@ export default function SolarBatteries() {
             category: "solar_batteries",
             tittle: "DAY STAR C10 250AH",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/12.DAY STAR SERIES.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -61,7 +61,7 @@ export default function SolarBatteries() {
             category: "solar_batteries",
             tittle: "DAY STAR C10 240AH I 220AH",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/12.DAY STAR SERIES.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -85,7 +85,7 @@ export default function SolarBatteries() {
             category: "solar_batteries",
             tittle: "EXTREME G C10 165AH I 220AH",
             description: "",
-            image: "https://prag.global/wp-content/uploads/2018/12/2-PRAG-TF-EX-12-200-CB-e1649862795725.png",
+            image: "/13.EXTREME G C10 165AH I 220AH.jpg.jpeg",
             pdf: "",
             features: [
 
@@ -117,7 +117,7 @@ export default function SolarBatteries() {
         <>
 
 
-            <section className="py-[5.4rem]">
+            <section className="py-[3rem]">
 
 
                 {

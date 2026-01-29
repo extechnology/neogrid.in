@@ -13,7 +13,7 @@ export default function Consultation() {
 
         <>
 
-            <section className="w-full py-20">
+            <section className="w-full py-14">
 
 
                 <div>

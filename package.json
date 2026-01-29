@@ -17,6 +17,7 @@
     "axios": "^1.7.7",
     "caniuse-lite": "^1.0.30001715",
     "force": "^0.0.3",
+    "framer-motion": "^12.29.2",
     "lucide-react": "^0.503.0",
     "react": "^18.3.1",
     "react-card-slider-component": "^1.0.9",

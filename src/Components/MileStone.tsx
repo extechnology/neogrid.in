@@ -32,7 +32,7 @@ export default function MileStone() {
         <>
 
 
-            <section className="py-10 border-t">
+            <section className="py-5 border-t">
 
                 <h3 className="text-[#6bac15] text-3xl font-bold sm:text-4xl text-center mb-5" data-aos="fade-up" data-aos-duration="600">
                     OUR MILE STONE PROJECTS
